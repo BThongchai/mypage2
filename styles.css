@@ -1,0 +1,80 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* จัดสไตล์ตารางโปรไฟล์ (Challenge: รูปกับ Text ห่างกัน) */
+.profile-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* ทำให้รูปเป็นวงกลมตามโจทย์ */
+  object-fit: cover;
+}
+
+/* ตารางทักษะ (Skills) แบบ 4 คอลัมน์ */
+.skill-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skill-table th, .skill-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.skill-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* ปุ่มติดต่อ */
+.btn-contact {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btn-contact:hover {
+  background-color: #218838;
+}
+
+/* ฟอร์มหน้า Contact */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
